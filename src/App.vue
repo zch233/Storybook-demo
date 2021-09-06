@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ZchButton>1231234</ZchButton>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ZchButton from './components/Button';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    ZchButton,
+  },
 }
 </script>
 
