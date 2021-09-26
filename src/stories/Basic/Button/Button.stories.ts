@@ -1,4 +1,4 @@
-import GupoButton from '../../components/Button.vue';
+import GupoButton from '../../../components/Basic/Button/index.vue';
 import { Story } from '@storybook/vue';
 
 export default {

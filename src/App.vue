@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ZchButton from './components/Button';
+import ZchButton from './components/Basic/Button';
 
 export default {
   name: 'App',
