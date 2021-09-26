@@ -1455,6 +1455,28 @@
   resolved "https://registry.nlark.com/@soda/get-current-script/download/@soda/get-current-script-1.0.2.tgz#a53515db25d8038374381b73af20bb4f2e508d87"
   integrity sha1-pTUV2yXYA4N0OBtzryC7Ty5QjYc=
 
+"@storybook/addon-a11y@^6.3.8":
+  version "6.3.8"
+  resolved "https://registry.npmmirror.com/@storybook/addon-a11y/download/@storybook/addon-a11y-6.3.8.tgz#7d6542d8e11fab38b21e7280100b0001a2b75232"
+  integrity sha1-fWVC2OEfqziyHnKAEAsAAaK3UjI=
+  dependencies:
+    "@storybook/addons" "6.3.8"
+    "@storybook/api" "6.3.8"
+    "@storybook/channels" "6.3.8"
+    "@storybook/client-api" "6.3.8"
+    "@storybook/client-logger" "6.3.8"
+    "@storybook/components" "6.3.8"
+    "@storybook/core-events" "6.3.8"
+    "@storybook/theming" "6.3.8"
+    axe-core "^4.2.0"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    lodash "^4.17.20"
+    react-sizeme "^3.0.1"
+    regenerator-runtime "^0.13.7"
+    ts-dedent "^2.0.0"
+    util-deprecate "^1.0.2"
+
 "@storybook/addon-actions@6.3.8", "@storybook/addon-actions@^6.3.8":
   version "6.3.8"
   resolved "https://registry.npmmirror.com/@storybook/addon-actions/download/@storybook/addon-actions-6.3.8.tgz#85e342c30b3118a7885a5cf0ea83c3bb03a18558"
@@ -1679,6 +1701,21 @@
     "@storybook/core-events" "6.3.7"
     "@storybook/router" "6.3.7"
     "@storybook/theming" "6.3.7"
+    core-js "^3.8.2"
+    global "^4.4.0"
+    regenerator-runtime "^0.13.7"
+
+"@storybook/addons@^6.3.8":
+  version "6.3.8"
+  resolved "https://registry.npmmirror.com/@storybook/addons/download/@storybook/addons-6.3.8.tgz#c4a839ae9b86fb4a1183466db6eb16201c1a0553"
+  integrity sha1-xKg5rpuG+0oRg0ZttusWIBwaBVM=
+  dependencies:
+    "@storybook/api" "6.3.8"
+    "@storybook/channels" "6.3.8"
+    "@storybook/client-logger" "6.3.8"
+    "@storybook/core-events" "6.3.8"
+    "@storybook/router" "6.3.8"
+    "@storybook/theming" "6.3.8"
     core-js "^3.8.2"
     global "^4.4.0"
     regenerator-runtime "^0.13.7"
@@ -2246,6 +2283,24 @@
 "@storybook/theming@6.3.8":
   version "6.3.8"
   resolved "https://registry.nlark.com/@storybook/theming/download/@storybook/theming-6.3.8.tgz#3af76408aa8a4f13e217cf407e63a03db217eedc"
+  integrity sha1-OvdkCKqKTxPiF89AfmOgPbIX7tw=
+  dependencies:
+    "@emotion/core" "^10.1.1"
+    "@emotion/is-prop-valid" "^0.8.6"
+    "@emotion/styled" "^10.0.27"
+    "@storybook/client-logger" "6.3.8"
+    core-js "^3.8.2"
+    deep-object-diff "^1.1.0"
+    emotion-theming "^10.0.27"
+    global "^4.4.0"
+    memoizerific "^1.11.3"
+    polished "^4.0.5"
+    resolve-from "^5.0.0"
+    ts-dedent "^2.0.0"
+
+"@storybook/theming@^6.3.8":
+  version "6.3.8"
+  resolved "https://registry.npmmirror.com/@storybook/theming/download/@storybook/theming-6.3.8.tgz#3af76408aa8a4f13e217cf407e63a03db217eedc"
   integrity sha1-OvdkCKqKTxPiF89AfmOgPbIX7tw=
   dependencies:
     "@emotion/core" "^10.1.1"
@@ -3628,6 +3683,11 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.nlark.com/aws4/download/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
+
+axe-core@^4.2.0:
+  version "4.3.3"
+  resolved "https://registry.npmmirror.com/axe-core/download/axe-core-4.3.3.tgz#b55cd8e8ddf659fe89b064680e1c6a4dceab0325"
+  integrity sha1-tVzY6N32Wf6JsGRoDhxqTc6rAyU=
 
 babel-core@^7.0.0-bridge.0:
   version "7.0.0-bridge.0"
