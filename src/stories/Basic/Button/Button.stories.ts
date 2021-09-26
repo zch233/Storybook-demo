@@ -3,6 +3,7 @@ import { Story } from '@storybook/vue';
 
 export default {
   title: 'Basic/Button 按钮', // 在 Storybook 应用侧边栏的显示
+  id: 'Basic/_fixed_Button 按钮', // 加上 _fixed_ 可以让示例代码置顶
   component: GupoButton,
   argTypes: { // 可以不写会根据 props 自动生成
     size: {
