@@ -73,3 +73,25 @@ BaseExample.parameters = {
   }
 }
 
+export const BindEvents: Story = (args, { argTypes }) => ({
+  props: Object.keys(argTypes),
+  components: { GupoButton },
+  methods: {
+    handleClick() {
+      alert('click')
+    }
+  },
+  template: `
+        <GupoButton @click="handleClick">默认按钮</GupoButton>
+  `,
+});
+
+BindEvents.storyName = '可以绑定点击事件'
+
+BindEvents.parameters = {
+  docs: {
+    description: {
+      story: '基础的按钮用法。',
+    },
+  }
+}
