@@ -2,8 +2,9 @@ import GupoButton from '../../../components/Basic/Button/index.vue';
 import { Story } from '@storybook/vue';
 
 export default {
-  title: 'Basic/Button 按钮',
-  argTypes: {
+  title: 'Basic/Button 按钮', // 在 Storybook 应用侧边栏的显示
+  component: GupoButton,
+  argTypes: { // 可以不写会根据 props 自动生成
     size: {
       control: { type: 'radio' },
       description: '按钮大小',

@@ -1,29 +1,4 @@
 # storybook-demo
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[what is storybook](https://storybook.js.org/tutorials/intro-to-storybook/vue/zh-CN/simple-component/)
+[storybook vue](https://storybook.js.org/docs/vue/get-started/introduction)
