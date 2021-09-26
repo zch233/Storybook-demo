@@ -1,0 +1,26 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="Quickly Start" />
+
+## 安装
+### npm 安装
+推荐使用 npm 的方式安装，它能更好地和 [webpack](https://webpack.js.org/) 打包工具配合使用。
+```
+npm i gulu-front-components -S
+// or yarn
+yarn add gulu-front-components
+```
+
+## 使用说明
+
+1. 首先在 src 中增加组件
+2. 增加页面，直接在 stories/ 下增加 *.stories.*(ts,js,md,msx) 文件即可创建。推荐使用 ts，以便得到更好的代码提示。🌰：/stories/Basic/Button/Button.stories.ts
+3. done
+
+## 单元测试
+
+> 每个组件都应经过严格的单元测试才能发布
+>
+> 在 tests/unit/** 中
+>
+> 运行 `yarn test:unit` 查看单测结果
