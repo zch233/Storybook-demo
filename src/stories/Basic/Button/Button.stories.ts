@@ -42,10 +42,12 @@ StageExample.storyName = '示例展示';
 
 export const BaseExample: Story = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
-  components: { GupoButton },
+  // @ts-ignore
+  components: { GupoButton, TestModel: () => import('comApp/TestModel') },
   template: `
       <section>
         <div class="source">
+          <TestModel />
           <GupoButton>默认按钮</GupoButton>
           <GupoButton type="primary">主要按钮</GupoButton>
           <GupoButton type="success">成功按钮</GupoButton>
