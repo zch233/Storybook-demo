@@ -1,4 +1,6 @@
 import GupoButton from '../../../components/Basic/Button/index.vue';
+// @ts-ignore
+import { TestModel } from '../../../components/Remote/index.js';
 import { Story } from '@storybook/vue';
 
 export default {
@@ -43,7 +45,7 @@ StageExample.storyName = '示例展示';
 export const BaseExample: Story = (args, { argTypes }) => ({
   props: Object.keys(argTypes),
   // @ts-ignore
-  components: { GupoButton, TestModel: () => import('comApp/TestModel') },
+  components: { GupoButton, TestModel },
   template: `
       <section>
         <div class="source">

@@ -1,0 +1,1 @@
+export const TestModel = () => import('comApp/TestModel')
